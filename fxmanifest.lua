@@ -6,7 +6,9 @@ description 'MXNDXY_Garage'
 version '1.0.0'
 
 shared_scripts {
-  'shared/cfg/*.lua'
+  '@es_extended/imports.lua',
+  'shared/cfg/*.lua',
+  'shared/*.lua'
 }
 
 server_scripts {
